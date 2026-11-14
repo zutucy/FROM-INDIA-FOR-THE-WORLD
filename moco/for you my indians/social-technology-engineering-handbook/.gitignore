@@ -1,0 +1,16 @@
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+~$*
+
+# Local build/export artifacts
+*.zip

@@ -1,0 +1,39 @@
+name: Factual correction or broken link
+description: Report a specific factual issue, outdated detail or broken chapter link.
+title: "[Correction]: "
+labels: ["content", "needs-review"]
+body:
+  - type: input
+    id: chapter
+    attributes:
+      label: Chapter file and heading
+      placeholder: "handbook/05B_...md — DNS caching"
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What appears incorrect or unclear?
+      description: Explain the exact statement or issue.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Reliable evidence or official source
+      description: Include a URL and the date you checked it.
+    validations:
+      required: false
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested correction
+    validations:
+      required: false
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: I have not included passwords, tokens, personal data or confidential information.
+          required: true

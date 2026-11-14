@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use or reference this handbook for non-commercial learning, cite it using the creator and title below. Check the repository license before reusing material."
+title: "Social & Technology Engineering Handbook"
+version: "1.0.0"
+date-released: "2026-11-14"
+license: "CC-BY-NC-ND-4.0"
+authors:
+  - family-names: "Mandloi"
+    given-names: "Vedansh"
+abstract: >-
+  A history-first educational handbook spanning computing, hardware,
+  operating systems, programming, networking, frontend and backend
+  engineering, databases, cloud, cybersecurity, data and AI, distributed
+  systems, product design, global operations, trust and safety, testing,
+  and a production architecture capstone. Prepared with AI assistance
+  from ChatGPT (GPT-6).

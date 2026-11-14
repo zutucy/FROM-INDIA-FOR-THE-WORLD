@@ -1,0 +1,32 @@
+name: Learning question
+description: Ask a question about a topic or chapter in the handbook.
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: input
+    id: chapter
+    attributes:
+      label: Relevant chapter (if known)
+      placeholder: "handbook/06A_...md"
+    validations:
+      required: false
+  - type: textarea
+    id: question
+    attributes:
+      label: What are you trying to understand?
+      description: Share what you already know and where you got stuck.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: What have you tried or read?
+    validations:
+      required: false
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: I have not included private credentials, personal data or confidential information.
+          required: true
